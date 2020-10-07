@@ -1,0 +1,58 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+*::selection {
+    background: transparent;
+}
+
+body {
+    background: #2196F3;
+}
+
+#table-area {
+    padding: 30px;
+    border: dotted #fff;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+thead th {
+    background: #06497f;
+    padding: 5px;
+    color: #2196f3;
+}
+
+input {
+    outline: none;
+    transition: all 0.5s;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    text-align: left;
+}
+
+input:focus {
+    border-bottom: 1px solid #3F51B5;
+}
+
+input[type="button"] {
+    background: #F44336;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+input[type="button"]:active {
+    background: #d5574e;
+}
+
+button {
+    border: 1px solid #000;
+    cursor: pointer;
+    outline: none;
+}
